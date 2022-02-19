@@ -1,0 +1,35 @@
+.MissionCard {
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid white;
+  border-radius: 1rem;
+  flex-grow: 1;
+  margin: 1rem;
+  width: 300px;
+}
+
+.MissionCard:hover {
+  background-color: rgba(92, 90, 90, 0.7);
+}
+
+.MissionCard header {
+  border-bottom: 1px solid white;
+  padding: 1rem;
+}
+
+.MissionCard header h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.MissionCard div {
+  padding: 1.5rem;
+}
+
+.MissionCard div p {
+  font-size: 1.1rem;
+}
+
+.MissionCard div p:not( :last-child ) {
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: Maven Pro, sans-serif;
+}}
+
+#root {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  color: white;
+  background: no-repeat url('./images/background.png');
+  background-size: cover;
+  background-attachment: fixed;
+}

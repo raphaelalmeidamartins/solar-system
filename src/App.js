@@ -1,19 +1,21 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/Header';
+import SolarSystem from './components/SolarSystem';
+import Missions from './components/Missions';
 import './App.css';
+import Footer from './components/Footer';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+      <>
+        <Header />
+        <div className="App-container">
+          <SolarSystem />
+          <Missions />
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+        <Footer textContent="Projeto desenvolvido por Raphael Martins usando React" />
+      </>
     );
   }
 }

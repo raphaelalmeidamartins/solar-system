@@ -1,0 +1,51 @@
+.PlanetCard {
+  align-items: center;
+  display: flex;
+  flex-flow: column-reverse nowrap;
+  padding: 1rem;
+}
+
+.PlanetCard p {
+  font-size: 1.2rem;
+}
+
+.PlanetCard div {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  height: 200px;
+  justify-content: center;
+  width: fit-content;
+}
+
+.PlanetCard div img:hover {
+  filter: brightness(130%);
+}
+
+.Image-Mercúrio {
+  height: 20%;
+}
+
+.Image-Vênus, .Image-Terra {
+  height: 50%;
+}
+
+.Image-Marte {
+  height: 35%;
+}
+
+.Image-Júpiter {
+  height: 90%;
+}
+
+.Image-Saturno {
+  height: 100%;
+}
+
+.Image-Urano {
+  height: 70%;
+}
+
+.Image-Netuno {
+  height: 62%;
+}

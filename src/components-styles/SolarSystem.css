@@ -1,0 +1,9 @@
+.SolarSystem {
+  width: 100%;
+}
+
+.SolarSystem-planetsContainer {
+  display: flex;
+  justify-content: center;
+  margin: 3.5rem 0;
+}
