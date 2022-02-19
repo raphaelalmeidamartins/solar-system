@@ -1,4 +1,5 @@
 {
+  "homepage": "https://raphaelalmeidamartins.github.io/solar-system",
   "name": "solar-system",
   "version": "0.1.0",
   "private": true,
@@ -10,10 +11,13 @@
   "devDependencies": {
     "eslint": "^8.9.0",
     "eslint-plugin-react": "^7.28.0",
+    "gh-pages": "^3.2.3",
     "stylelint": "^14.5.1",
     "stylelint-order": "^5.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
