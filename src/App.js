@@ -8,14 +8,14 @@ import Footer from './components/Footer';
 class App extends React.Component {
   render() {
     return (
-      <>
+      <React.Fragment>
         <Header />
         <div className="App-container">
           <SolarSystem />
           <Missions />
         </div>
         <Footer textContent="Projeto desenvolvido por Raphael Martins usando React" />
-      </>
+      </React.Fragment>
     );
   }
 }
