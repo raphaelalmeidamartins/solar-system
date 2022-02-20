@@ -4,7 +4,7 @@
 
 ## :page_with_curl: About
 
-My first React application. React project developed by [Raphael Martins](https://www.linkedin.com/in/raphaelameidamartins/) at the end of Unit 10 Module 2 of the Trybe's Web Development course.
+My first React application. React project developed by [Raphael Martins](https://www.linkedin.com/in/raphaelameidamartins/) at the end of Unit 10 ([Front-end Development Module](https://github.com/raphaelalmeidamartins/trybe_exercicios/tree/main/2_Desenvolvimento-Front-end)) of the Trybe's Web Development course.
 
 We have to develop a simple static React page by using components.
 
