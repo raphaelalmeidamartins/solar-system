@@ -21,6 +21,10 @@ We have to develop a simple static React page by using components.
 
 _(Under development)_
 
+## :trophy: Grade
+
+![My grade of the project - Minha nota no projeto](./public/nota.png)
+
 ### :copyright: Copyright disclaimer
 
 I developed this project for learning purposes, all the code and documentation texts are my authorship, and the rights belong exclusively to me. It is allowed to download or clone the repository for study purposes. However, it is not allowed to publish full or partial copies. This disclaimer does not cover libraries and dependencies, which are subject to their respective licenses.
