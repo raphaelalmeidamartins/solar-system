@@ -10,6 +10,11 @@ We have to develop a simple static React page by using components.
 
 [Click here](https://raphaelalmeidamartins.github.io/solar-system) to check out the final version of the project on your browser.
 
+## :man_technologist: Developed Skills
+
+* Develop a basic React application
+* Create and reuse React components
+
 ## :hammer_and_wrench: Tools
 
 * HTML5
